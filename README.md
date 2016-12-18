@@ -1,6 +1,6 @@
-##Repository under construction!
+#**Repository under construction!
 
-# Phods-algorithm-optimization
+##Phods-algorithm-optimization
 This is a repository regarding function time calculation and optimisation of phods algorithm,which is used in picture motion estimation.
 
 This repository is made for educational/academic use.
