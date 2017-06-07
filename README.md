@@ -4,12 +4,13 @@ This is a repository regarding function time calculation and optimisation of pho
 
 The code for this repository was created for academic course "Design of Embedded Systems!"
 
-The repository includes phods1.c which was a given code for the purposes of the assignment and was to be optimised.All the codes have been configured to measure the execution time
+The repository includes phods1.c which was a given code for the purposes of the assignment and was to be optimised.The techniques used for optimisation were loop unrolling, loop tiling, loop skewing, loop merging and loop interchanges wherever that was possible inside the critical section of the code.
+
+All the codes have been configured to measure the execution time
 of phods_estimation function with gettimeofday() function, as asked by the exercise.
 
 phods2.c is the optimized version.
-phods3.c is identical to phods2.c ,except that it is manipulated by Phods_script to run for spesific values of B,which is the size of
-the image block, in which we process the image.All the possible values of B are the common divisors of M and N,where NxM are the dimensions of the image.
+phods3.c is identical to phods2.c (therefore phods2.c does not need to be uploaded) ,except that it is manipulated by Phods_script.sh to run for spesific values of B,which is the size of the image block, in which we process the image.All the possible values of B are the common divisors of M and N,where NxM are the dimensions of the image.
 
 phods4.c is configured to take separately a value for Bx and By,where Bx and By are the dimensions of the block.All possible values of Bx are divisors of N and all possible values of By are divisors of M,respectively.
 
