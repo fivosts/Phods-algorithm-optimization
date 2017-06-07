@@ -4,7 +4,7 @@ This is a repository regarding function time calculation and optimisation of pho
 
 The code for this repository was created for academic course "Design of Embedded Systems!"
 
-The repository includes phods1.c which was a given code for the purposes of the assignment and will be optimised.All the codes have been configured to measure the execution time
+The repository includes phods1.c which was a given code for the purposes of the assignment and was to be optimised.All the codes have been configured to measure the execution time
 of phods_estimation function with gettimeofday() function, as asked by the exercise.
 
 phods2.c is the optimized version.
