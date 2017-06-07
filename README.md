@@ -1,5 +1,6 @@
-#Phods-algorithm-optimization
-This is a repository regarding function time calculation and optimisation of phods algorithm,which is used in picture motion estimation.
+# Phods-algorithm-optimization
+
+This is a repository regarding function time calculation and optimisation of phods algorithm,which is used in picture motion estimation of 144x176 images.
 
 The code for this repository was created for academic course "Design of Embedded Systems!"
 
@@ -12,6 +13,4 @@ the image block, in which we process the image.All the possible values of B are 
 
 phods4.c is configured to take separately a value for Bx and By,where Bx and By are the dimensions of the block.All possible values of Bx are divisors of N and all possible values of By are divisors of M,respectively.
 
-Phods_script is a bash script which is used as a tool for executing and configuring the above codes.With the appropriate argument,it runs phods1.c ,phods2.c , phods3.c for all possible values of B and phods4.c for all possible combinations of all possible values of Bx and By.
-
-The above calculations concern images with 144x176 dimensions.
+Phods_script.sh is a bash script which is used as a tool for executing and configuring the above codes.With the appropriate argument,it runs phods1.c ,phods2.c , phods3.c for all possible values of B and phods4.c for all possible combinations of all possible values of Bx and By.
