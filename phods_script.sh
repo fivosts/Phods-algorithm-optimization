@@ -4,19 +4,21 @@ if [ "$2" == "" ]
 then
 
 
+######Part 1
 if [ "$1" == "-er1" ]
 then
 	gcc -O0 phods1.c -o phods1
 	./phods1
 	rm ./phods1
 
+######Part 2
 elif [ "$1" == "-er2" ]
 then
 	gcc -O0 phods2.c -o phods2
 	./phods2
 	rm ./phods2 
 
-############3o erotima
+############Part 3
 
 elif [ "$1" == "-er3" ]
 then
@@ -50,7 +52,7 @@ then
 		let divisor=divisor+1
 	done
 
-###########4o erotima
+###########Part 4
 
 elif [ "$1" == "-er4" ]
 then
@@ -85,7 +87,7 @@ then
 		let divisorx=divisorx+1
 	done
 
-#########erotima 4b-ylopoiisi "evristikis" ideas
+#########extra Part: 4b. Implementation of an heuristic method, finding the best Bx,By combination
 
 elif [ "$1" == "-er4b" ]
 	then
